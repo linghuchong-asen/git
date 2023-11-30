@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>demo</title>
+  <style>
+    #father{
+      width: 100px;
+      height: 100px;
+      border: 1px solid darkblue;
+    }
+    #child{
+      width: 100px;
+      height: 100px;
+      border: 1px solid darkgoldenrod;
+      position: absolute;
+      /* left: 200px; */
+    }
+    #son{
+      width: 100px;
+      height: 100px;
+      border: 1px solid darkgreen;
+      position: absolute;
+      /* left: 200px; */
+    }
+  </style>
+</head>
+
+<body>
+  <div>demo</div>
+  <div id="father">
+    <div id="child">
+      <div id="son"></div>
+    </div>
+  </div>
+  <script src="./demo.js"></script>
+</body>
+</html>
